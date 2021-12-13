@@ -4,11 +4,11 @@ SECTION = "wpe"
 LICENSE = "Apache-2.0"
 LIC_FILES_CHKSUM = "file://LICENSE;md5=85bcfede74b96d9a58c6ea5d4b607e58"
 
-RECIPE_BRANCH ?= "master"
+RECIPE_BRANCH ?= "development/METROL-387"
 SRC_URI[md5sum] = "42b518b9ccd6852d1d709749bc96cb70"
 SRC_URI[sha256sum] = "f3c45b121cf6257eafabdc3a8008763aed1cd7da06dbabc59a9e4d2a5e4e6697"
 SRC_URI = "git://github.com/rdkcentral/Thunder.git;protocol=git;branch=${RECIPE_BRANCH}"
-SRCREV ?= "5e600b3401ba12c21bc3adae1efe2c5f6c064de2"
+SRCREV ?= "53fde06f9a9aa7edcf12139e62342d2b88ab2689"
 PR = "r0"
 S = "${WORKDIR}/git"
 

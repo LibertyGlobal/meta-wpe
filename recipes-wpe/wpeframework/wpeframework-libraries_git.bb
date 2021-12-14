@@ -10,9 +10,9 @@ DEPENDS_append = " wpeframework"
 
 PV = "3.0+gitr${SRCPV}"
 PR = "r1"
-RECIPE_BRANCH ?= "main"
+RECIPE_BRANCH ?= "development/METROL-387"
 SRC_URI = "git://git@github.com:/WebPlatformForEmbedded/ThunderLibraries.git;protocol=ssh;branch=${RECIPE_BRANCH}"
-SRCREV ?= "0e0d04168e85ab749e358b902ea45077067b1833"
+SRCREV ?= "bd09a9c80c0bfeaf4efc1dc0179f4b5a99a8736f"
 
 #inherit python3native
 

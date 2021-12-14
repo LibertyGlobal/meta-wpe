@@ -8,7 +8,7 @@ RECIPE_BRANCH ?= "development/METROL-387"
 SRC_URI[md5sum] = "42b518b9ccd6852d1d709749bc96cb70"
 SRC_URI[sha256sum] = "f3c45b121cf6257eafabdc3a8008763aed1cd7da06dbabc59a9e4d2a5e4e6697"
 SRC_URI = "git://github.com/rdkcentral/Thunder.git;protocol=git;branch=${RECIPE_BRANCH}"
-SRCREV ?= "53fde06f9a9aa7edcf12139e62342d2b88ab2689"
+SRCREV ?= "1a9043ac6be938293d7355ab28587c06d9099089"
 PR = "r0"
 S = "${WORKDIR}/git"
 
